@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <title>Drum Machine</title>
+
+</head>
+
+<body>
+  <h1>Drums</h1>
+
+  <audio src="sounds/808_clap.wav" autoplay=false id="808_clap"></audio>
+  <audio src="sounds/808_cowbell.wav" autoplay=false id="808_cowbell"></audio>
+  <audio src="sounds/808_cymbal.wav" autoplay=false id="808_cymbal"></audio>
+  <audio src="sounds/808_hihatclosed.wav" autoplay=false id="808_hihatclosed"></audio>
+  <audio src="sounds/808_hihatopen.wav" autoplay=false id="808_hihatopen"></audio>
+  <audio src="sounds/808_kick.wav" autoplay=false id="808_kick"></audio>
+  <audio src="sounds/808_snare.wav" autoplay=false id="808_snare"></audio>
+  <audio src="sounds/808_tom.wav" autoplay=false id="808_tom"></audio>
+  <audio src="sounds/909_clap.wav" autoplay=false id="909_clap"></audio>
+  <audio src="sounds/909_cowbell.wav" autoplay=false id="909_cowbell"></audio>
+  <audio src="sounds/909_cymbal.wav" autoplay=false id="909_cymbal"></audio>
+  <audio src="sounds/909_hihatclosed.wav" autoplay=false id="909_hihatclosed"></audio>
+  <audio src="sounds/909_hihatopen.wav" autoplay=false id="909_hihatopen"></audio>
+  <audio src="sounds/909_kick.wav" autoplay=false id="909_kick"></audio>
+  <audio src="sounds/909_snare.wav" autoplay=false id="909_snare"></audio>
+  <audio src="sounds/909_tom.wav" autoplay=false id="909_tom"></audio>
+
+  <button class="sound-btn" onclick="playSample('808_clap')" id="808_clap">Clap</button>
+  <button class="sound-btn" onclick="playSample('808_cowbell')" id="808_cowbell">"Cowbell"</button>
+  <button class="sound-btn" onclick="playSample('808_cymbal')" id="808_cymbal">Cymbal</button>
+  <button class="sound-btn" onclick="playSample('808_hihatclosed')" id="808_hihatclosed">Hi-hat Closed</button>
+  <button class="sound-btn" onclick="playSample('808_hihatopen')" id="808_hithateopen">Hi-hat Open</button>
+  <button class="sound-btn" onclick="playSample('808_kick')" id="808_kick">Kick</button>
+  <button class="sound-btn" onclick="playSample('808_snare')" id="808_snare">Snare</button>
+  <button class="sound-btn" onclick="playSample('808_tom')" id="808_tom">Tom(but really another kick)</button>
+  <button class="sound-btn" onclick="playSample('909_clap')" id="909_clap">Clap</button>
+  <button class="sound-btn" onclick="playSample('909_cowbell')" id="909_cowbell">"Cowbell"</button>
+  <button class="sound-btn" onclick="playSample('909_cymbal')" id="909_cymbal">Cymbal</button>
+  <button class="sound-btn" onclick="playSample('909_hihatclosed')" id="909_hihatclosed">Hit-hat Closed</button>
+  <button class="sound-btn" onclick="playSample('909_kick')" id="909_kick">Kick</button>
+  <button class="sound-btn" onclick="playSample('909_snare')" id="909_snare">Snare</button>
+  <button class="sound-btn" onclick="playSample('909_tom')" id="909_tom">Tom</button>
+
+  
+</body>
+
+</html>

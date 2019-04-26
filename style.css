@@ -1,0 +1,14 @@
+.sound-btn{
+    background-color: green;
+    width: 50px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1{
+    text-align: center;
+}
